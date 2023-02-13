@@ -1,0 +1,425 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1613EB8E242E4C6C0010AA19 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1613EB8D242E4C6C0010AA19 /* AppDelegate.swift */; };
+		1613EB90242E4C6C0010AA19 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1613EB8F242E4C6C0010AA19 /* SceneDelegate.swift */; };
+		1613EB95242E4C6C0010AA19 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1613EB93242E4C6C0010AA19 /* Main.storyboard */; };
+		1613EB97242E4C6D0010AA19 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1613EB96242E4C6D0010AA19 /* Assets.xcassets */; };
+		1613EB9A242E4C6D0010AA19 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1613EB98242E4C6D0010AA19 /* LaunchScreen.storyboard */; };
+		1613EBA2242E55120010AA19 /* SeismicTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1613EBA1242E55120010AA19 /* SeismicTableViewController.swift */; };
+		1613EBA4242E55350010AA19 /* SeismicDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1613EBA3242E55350010AA19 /* SeismicDetailViewController.swift */; };
+		27A68E783E4ACC03F1862620 /* Pods_USGS_Seismic.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 808F3CC19939535A72BCD7AB /* Pods_USGS_Seismic.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1613EB8A242E4C6C0010AA19 /* USGS-Seismic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "USGS-Seismic.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1613EB8D242E4C6C0010AA19 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1613EB8F242E4C6C0010AA19 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		1613EB94242E4C6C0010AA19 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1613EB96242E4C6D0010AA19 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1613EB99242E4C6D0010AA19 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1613EB9B242E4C6D0010AA19 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1613EBA1242E55120010AA19 /* SeismicTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SeismicTableViewController.swift; sourceTree = "<group>"; };
+		1613EBA3242E55350010AA19 /* SeismicDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SeismicDetailViewController.swift; sourceTree = "<group>"; };
+		586A5B8C2E21B63AB68B9CE7 /* Pods-USGS-Seismic.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-USGS-Seismic.release.xcconfig"; path = "Target Support Files/Pods-USGS-Seismic/Pods-USGS-Seismic.release.xcconfig"; sourceTree = "<group>"; };
+		808F3CC19939535A72BCD7AB /* Pods_USGS_Seismic.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_USGS_Seismic.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BBD1AC420C340F0BF00C4653 /* Pods-USGS-Seismic.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-USGS-Seismic.debug.xcconfig"; path = "Target Support Files/Pods-USGS-Seismic/Pods-USGS-Seismic.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1613EB87242E4C6C0010AA19 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27A68E783E4ACC03F1862620 /* Pods_USGS_Seismic.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		111077CE6A589497DA398928 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BBD1AC420C340F0BF00C4653 /* Pods-USGS-Seismic.debug.xcconfig */,
+				586A5B8C2E21B63AB68B9CE7 /* Pods-USGS-Seismic.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		1613EB81242E4C6C0010AA19 = {
+			isa = PBXGroup;
+			children = (
+				1613EB8C242E4C6C0010AA19 /* USGS-Seismic */,
+				1613EB8B242E4C6C0010AA19 /* Products */,
+				111077CE6A589497DA398928 /* Pods */,
+				5971303733FBADFA2C807258 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		1613EB8B242E4C6C0010AA19 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1613EB8A242E4C6C0010AA19 /* USGS-Seismic.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1613EB8C242E4C6C0010AA19 /* USGS-Seismic */ = {
+			isa = PBXGroup;
+			children = (
+				1613EBA5242E55480010AA19 /* Controller */,
+				1613EB8D242E4C6C0010AA19 /* AppDelegate.swift */,
+				1613EB8F242E4C6C0010AA19 /* SceneDelegate.swift */,
+				1613EB93242E4C6C0010AA19 /* Main.storyboard */,
+				1613EB96242E4C6D0010AA19 /* Assets.xcassets */,
+				1613EB98242E4C6D0010AA19 /* LaunchScreen.storyboard */,
+				1613EB9B242E4C6D0010AA19 /* Info.plist */,
+			);
+			path = "USGS-Seismic";
+			sourceTree = "<group>";
+		};
+		1613EBA5242E55480010AA19 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				1613EBA1242E55120010AA19 /* SeismicTableViewController.swift */,
+				1613EBA3242E55350010AA19 /* SeismicDetailViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		5971303733FBADFA2C807258 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				808F3CC19939535A72BCD7AB /* Pods_USGS_Seismic.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1613EB89242E4C6C0010AA19 /* USGS-Seismic */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1613EB9E242E4C6D0010AA19 /* Build configuration list for PBXNativeTarget "USGS-Seismic" */;
+			buildPhases = (
+				56A63B19488E7FCFB9B86699 /* [CP] Check Pods Manifest.lock */,
+				1613EB86242E4C6C0010AA19 /* Sources */,
+				1613EB87242E4C6C0010AA19 /* Frameworks */,
+				1613EB88242E4C6C0010AA19 /* Resources */,
+				D81027094BE1DEEB1EC8C693 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "USGS-Seismic";
+			productName = "USGS-Seismic";
+			productReference = 1613EB8A242E4C6C0010AA19 /* USGS-Seismic.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1613EB82242E4C6C0010AA19 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1120;
+				LastUpgradeCheck = 1120;
+				ORGANIZATIONNAME = "USEngineering Solutions";
+				TargetAttributes = {
+					1613EB89242E4C6C0010AA19 = {
+						CreatedOnToolsVersion = 11.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 1613EB85242E4C6C0010AA19 /* Build configuration list for PBXProject "USGS-Seismic" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1613EB81242E4C6C0010AA19;
+			productRefGroup = 1613EB8B242E4C6C0010AA19 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1613EB89242E4C6C0010AA19 /* USGS-Seismic */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1613EB88242E4C6C0010AA19 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1613EB9A242E4C6D0010AA19 /* LaunchScreen.storyboard in Resources */,
+				1613EB97242E4C6D0010AA19 /* Assets.xcassets in Resources */,
+				1613EB95242E4C6C0010AA19 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		56A63B19488E7FCFB9B86699 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-USGS-Seismic-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D81027094BE1DEEB1EC8C693 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-USGS-Seismic/Pods-USGS-Seismic-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-USGS-Seismic/Pods-USGS-Seismic-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-USGS-Seismic/Pods-USGS-Seismic-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1613EB86242E4C6C0010AA19 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1613EBA4242E55350010AA19 /* SeismicDetailViewController.swift in Sources */,
+				1613EB8E242E4C6C0010AA19 /* AppDelegate.swift in Sources */,
+				1613EBA2242E55120010AA19 /* SeismicTableViewController.swift in Sources */,
+				1613EB90242E4C6C0010AA19 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		1613EB93242E4C6C0010AA19 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1613EB94242E4C6C0010AA19 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1613EB98242E4C6D0010AA19 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1613EB99242E4C6D0010AA19 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1613EB9C242E4C6D0010AA19 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1613EB9D242E4C6D0010AA19 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1613EB9F242E4C6D0010AA19 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BBD1AC420C340F0BF00C4653 /* Pods-USGS-Seismic.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 63BRWW6JDU;
+				INFOPLIST_FILE = "USGS-Seismic/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.usengineeringsolutions.USGS-Seismic";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1613EBA0242E4C6D0010AA19 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 586A5B8C2E21B63AB68B9CE7 /* Pods-USGS-Seismic.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 63BRWW6JDU;
+				INFOPLIST_FILE = "USGS-Seismic/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.usengineeringsolutions.USGS-Seismic";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1613EB85242E4C6C0010AA19 /* Build configuration list for PBXProject "USGS-Seismic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1613EB9C242E4C6D0010AA19 /* Debug */,
+				1613EB9D242E4C6D0010AA19 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1613EB9E242E4C6D0010AA19 /* Build configuration list for PBXNativeTarget "USGS-Seismic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1613EB9F242E4C6D0010AA19 /* Debug */,
+				1613EBA0242E4C6D0010AA19 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1613EB82242E4C6C0010AA19 /* Project object */;
+}
